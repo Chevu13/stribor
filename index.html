@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="sr-Latn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0B100D" />
+    <!-- Demo redizajna: ukloniti noindex kada vlasnici odobre objavu. -->
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:site_name" content="Stribor Food & Beer" />
+    <meta property="og:locale" content="sr_RS" />
+    <meta property="og:image" content="/og.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarOrPub",
+        "name": "Stribor Food & Beer",
+        "alternateName": ["Stribor pivnica", "Stribor 3bir & More"],
+        "telephone": "+38163551132",
+        "servesCuisine": ["Burgeri", "Pub hrana"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Branka Bajića 9N",
+          "addressLocality": "Novi Sad",
+          "postalCode": "21000",
+          "addressCountry": "RS"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 45.255916, "longitude": 19.819222 },
+        "sameAs": ["https://www.instagram.com/stribor_pivnica/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

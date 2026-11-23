@@ -1,0 +1,9 @@
+{
+  "rewrites": [{ "source": "/((?!images/|videos/|assets/|favicon|og).*)", "destination": "/index.html" }],
+  "headers": [
+    {
+      "source": "/(images|videos|assets)/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }]
+    }
+  ]
+}
